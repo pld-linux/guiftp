@@ -1,5 +1,5 @@
-Summary:	guiftp is a simple FTP client using the GTK+ toolkit
-Summary(pl):	guiftp jest prostym klientem FTP u¿ywaj±cym narzêdzi GTK+
+Summary:	guiftp - a simple FTP client using the GTK+ toolkit
+Summary(pl):	guiftp - prosty klient FTP u¿ywaj±cy narzêdzi GTK+
 Name:		guiftp
 Version:	0.1
 Release:	1
@@ -26,6 +26,7 @@ guiftp jest prostym klientem FTP u¿ywaj±cym narzêdzi GTK+.
 
 %install
 rm -rf $RPM_BUILD_ROOT
+
 %{__make} install \
         DESTDIR=$RPM_BUILD_ROOT 
 
@@ -36,6 +37,6 @@ rm -rf $RPM_BUILD_ROOT
 
 %files -f %{name}.lang
 %defattr(644,root,root,755)
-%attr(755,root,root) %{_bindir}/*
 %doc AUTHORS ChangeLog README
+%attr(755,root,root) %{_bindir}/*
 %{_mandir}/man1/*
