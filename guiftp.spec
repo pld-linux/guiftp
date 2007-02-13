@@ -1,5 +1,5 @@
 Summary:	guiftp - a simple FTP client using the GTK+ toolkit
-Summary(pl.UTF-8):   guiftp - prosty klient FTP używający narzędzi GTK+
+Summary(pl.UTF-8):	guiftp - prosty klient FTP używający narzędzi GTK+
 Name:		guiftp
 Version:	0.1
 Release:	1
