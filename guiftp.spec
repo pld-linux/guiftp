@@ -9,7 +9,7 @@ Source0:	http://ordiluc.net/guiftp/%{name}-%{version}.tar.bz2
 # Source0-md5:	2587b3c216b4d0b24280b73230f4b7f8
 URL:		http://ordiluc.net/guiftp
 BuildRequires:	gtk+-devel >= 1.2.10
-Buildroot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
+BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
 guiftp is a simple FTP client using the GTK+ toolkit.
